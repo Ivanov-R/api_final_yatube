@@ -29,6 +29,7 @@ python manage.py runserver
 Присутствуют следующие эндпоинты:
 
 api/v1/jwt/create/ (POST): получение JWT-токена.
+
 api/v1/jwt/refresh/ (POST): обновление JWT-токена.
 api/v1/jwt/verify/ (POST): проверка JWT-токена.
 api/v1/posts/ (GET, POST): получаем список всех постов или создаём новый пост.
